@@ -1,0 +1,16 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "bitirme proje",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Arda Pala",
+  "license": "ISC",
+  "dependencies": {
+    "composer": "^4.1.0",
+    "cryptofont": "^0.1.1",
+    "node-sass": "^9.0.0"
+  }
+}
