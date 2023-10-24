@@ -77,6 +77,9 @@ header{
                 width: 500px;
                 height: 60px;
                 margin: 10px;
+                @media (max-width: 536px){
+                    width: 450px;
+                }
             }
         }
     }
@@ -227,7 +230,7 @@ header{
         select{
             margin-left: 20px;
             display: flex;
-            width: 199px;
+            width: 129px;
             height: 80px;
             padding: 10px;
             padding-left: 42px;
@@ -245,6 +248,11 @@ header{
             background-repeat: no-repeat;
             background-position: right 35px top 50%;
             background-size: 0.65rem auto;
+            @media (max-width: 536px){
+                width: 130px;
+                padding-left: 15px;
+                background-position: right 15px top 50%;
+            }
         }
     }
     .buy-button{
@@ -252,6 +260,9 @@ header{
         padding: 13px;
         margin-top: 30px;
         border-radius: 40px;
+        @media (max-width: 536px){
+            width: 470px;
+        }
     }
 }
 .partners-section{
@@ -295,9 +306,25 @@ header{
             line-height: 52px;
         }
     }
+    .card-all-text{
+        @media (max-width: 536px){
+            margin-left: -40px;
+        }
+    }
     .card-unordered{
         list-style: none;
         margin-left: -30px;
+        @media (max-width: 536px){
+            margin-left: -30px;
+            li{
+                margin-top: 16px;
+            }
+        }
+        @media (max-width: 991px){
+            li{
+                margin-top: 16px;
+            }
+        }
     }
     .card-button{
         width: 100%;
@@ -313,6 +340,13 @@ header{
             gap: 5px;
             width: 220px;
             height: 72px;
+            @media (max-width: 536px){
+                width: 430px;
+                margin-left: -60px;
+            }
+            @media (max-width: 991px){
+                width: 430px;
+            }
             span{
                 font-size: 18px;
                 font-style: normal;
@@ -334,6 +368,10 @@ header{
             height: 756px;
             flex-shrink: 0;
             margin-top: -130px;
+            @media (max-width: 991px){
+                width: 650px;
+                height: 556px;
+            }
         }
         .tether1{
             transform: rotate(-168.455deg);
@@ -414,6 +452,10 @@ header{
                 gap: 5px;
                 width: 220px;
                 height: 72px;
+                @media (max-width: 1099px){
+                    display: block;
+                    width: 110%;
+                }
                 span{
                     font-size: 18px;
                     font-style: normal;
@@ -423,6 +465,11 @@ header{
                     background-clip: text;
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
+                }
+            }
+            .tool-a{
+                @media (max-width: 1099px){
+                    margin-top: 50px;
                 }
             }
         }
@@ -444,13 +491,15 @@ header{
         }
         .security-unordered{
             list-style: none;
+            @media (max-width: 991px){
+                margin-left: -28px;
+            }
         }
     }
 }
 .started-section{
     .started-container{
         background-color: #EFF1F7;
-        width: 1800px;
         border-radius: 40px;
         h2{
             font-size: 36px;
@@ -512,7 +561,10 @@ header{
             @media (max-width: 991px){
                 width: 735px;
                 @media (max-width: 767px){
-                    width: 560px;
+                    width: 520px;
+                    @media (max-width: 536px){
+                        width: 445px;
+                    }
                 }
         }
         }
@@ -533,6 +585,9 @@ header{
             i{
                 position: absolute;
                 right: -35px;
+                @media (max-width: 767px){
+                    right: 10px;
+                }
             }
         }
     }

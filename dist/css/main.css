@@ -64,6 +64,9 @@ header {
         width: 500px;
         height: 60px;
         margin: 10px; } }
+  @media (max-width: 991px) and (max-width: 536px) {
+    header .header-buttons .header-button {
+      width: 450px; } }
   header .header-photo {
     margin-top: -200px;
     margin-left: -30px;
@@ -181,7 +184,7 @@ header {
   .buy-section .select-group select {
     margin-left: 20px;
     display: flex;
-    width: 199px;
+    width: 129px;
     height: 80px;
     padding: 10px;
     padding-left: 42px;
@@ -199,11 +202,19 @@ header {
     background-repeat: no-repeat;
     background-position: right 35px top 50%;
     background-size: 0.65rem auto; }
+    @media (max-width: 536px) {
+      .buy-section .select-group select {
+        width: 130px;
+        padding-left: 15px;
+        background-position: right 15px top 50%; } }
   .buy-section .buy-button {
     width: 530px;
     padding: 13px;
     margin-top: 30px;
     border-radius: 40px; }
+    @media (max-width: 536px) {
+      .buy-section .buy-button {
+        width: 470px; } }
 
 .partners-section {
   margin-top: 150px; }
@@ -239,9 +250,21 @@ header {
     font-weight: 600;
     line-height: 52px; }
 
+@media (max-width: 536px) {
+  .card-section .card-all-text {
+    margin-left: -40px; } }
+
 .card-section .card-unordered {
   list-style: none;
   margin-left: -30px; }
+  @media (max-width: 536px) {
+    .card-section .card-unordered {
+      margin-left: -30px; }
+      .card-section .card-unordered li {
+        margin-top: 16px; } }
+  @media (max-width: 991px) {
+    .card-section .card-unordered li {
+      margin-top: 16px; } }
 
 .card-section .card-button {
   width: 100%; }
@@ -255,6 +278,13 @@ header {
     gap: 5px;
     width: 220px;
     height: 72px; }
+    @media (max-width: 536px) {
+      .card-section .card-button button {
+        width: 430px;
+        margin-left: -60px; } }
+    @media (max-width: 991px) {
+      .card-section .card-button button {
+        width: 430px; } }
     .card-section .card-button button span {
       font-size: 18px;
       font-style: normal;
@@ -272,6 +302,10 @@ header {
     height: 756px;
     flex-shrink: 0;
     margin-top: -130px; }
+    @media (max-width: 991px) {
+      .tools-section .tools-image-div .tools-image {
+        width: 650px;
+        height: 556px; } }
   .tools-section .tools-image-div .tether1 {
     transform: rotate(-168.455deg);
     right: 345px;
@@ -334,6 +368,10 @@ header {
     gap: 5px;
     width: 220px;
     height: 72px; }
+    @media (max-width: 1099px) {
+      .tools-section .tools-text .tools-button button {
+        display: block;
+        width: 110%; } }
     .tools-section .tools-text .tools-button button span {
       font-size: 18px;
       font-style: normal;
@@ -343,6 +381,9 @@ header {
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
+  @media (max-width: 1099px) {
+    .tools-section .tools-text .tools-button .tool-a {
+      margin-top: 50px; } }
 
 .security-section .security-text h2 {
   font-size: 36px;
@@ -358,10 +399,12 @@ header {
 
 .security-section .security-text .security-unordered {
   list-style: none; }
+  @media (max-width: 991px) {
+    .security-section .security-text .security-unordered {
+      margin-left: -28px; } }
 
 .started-section .started-container {
   background-color: #EFF1F7;
-  width: 1800px;
   border-radius: 40px; }
   .started-section .started-container h2 {
     font-size: 36px;
@@ -418,7 +461,10 @@ header {
         width: 735px; } }
   @media (max-width: 991px) and (max-width: 767px) {
     .faq-section .faq .panel {
-      width: 560px; } }
+      width: 520px; } }
+  @media (max-width: 991px) and (max-width: 767px) and (max-width: 536px) {
+    .faq-section .faq .panel {
+      width: 445px; } }
   .faq-section .faq .accordion {
     background: none;
     color: #000000;
@@ -436,6 +482,9 @@ header {
     .faq-section .faq .accordion i {
       position: absolute;
       right: -35px; }
+      @media (max-width: 767px) {
+        .faq-section .faq .accordion i {
+          right: 10px; } }
 
 .back-top-btn a {
   text-decoration: none; }
