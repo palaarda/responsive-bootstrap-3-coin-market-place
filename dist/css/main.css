@@ -184,7 +184,7 @@ header {
   .buy-section .select-group select {
     margin-left: 20px;
     display: flex;
-    width: 129px;
+    width: 185px;
     height: 80px;
     padding: 10px;
     padding-left: 42px;
@@ -381,9 +381,19 @@ header {
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
-  @media (max-width: 1099px) {
+  .tools-section .tools-text .tools-button .tool-a {
+    margin-left: 50px;
+    margin-top: -50px; }
+    @media (max-width: 1399px) {
+      .tools-section .tools-text .tools-button .tool-a {
+        margin-left: 130px; } }
+  @media (max-width: 1399px) and (max-width: 1199px) {
     .tools-section .tools-text .tools-button .tool-a {
-      margin-top: 50px; } }
+      margin-left: 230px; } }
+  @media (max-width: 1399px) and (max-width: 1199px) and (max-width: 1099px) {
+    .tools-section .tools-text .tools-button .tool-a {
+      margin-left: 36px;
+      margin-top: 25px; } }
 
 .security-section .security-text h2 {
   font-size: 36px;
