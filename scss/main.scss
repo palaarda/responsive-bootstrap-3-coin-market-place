@@ -230,7 +230,7 @@ header{
         select{
             margin-left: 20px;
             display: flex;
-            width: 129px;
+            width: 185px;
             height: 80px;
             padding: 10px;
             padding-left: 42px;
@@ -468,8 +468,17 @@ header{
                 }
             }
             .tool-a{
-                @media (max-width: 1099px){
-                    margin-top: 50px;
+                margin-left: 50px;
+                margin-top: -50px;
+                @media (max-width: 1399px){
+                    margin-left: 130px;
+                    @media (max-width: 1199px){
+                        margin-left: 230px;
+                        @media (max-width: 1099px){
+                            margin-left: 36px;
+                            margin-top: 25px;
+                        }
+                    }
                 }
             }
         }
