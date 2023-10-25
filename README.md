@@ -1,7 +1,7 @@
 # Responsive Bootstrap Coin Market Place Demo Page 
 
 ## Live Demo
-https://palaarda.github.io/responsive-bootstrap3-coin-market-place/
+https://palaarda.github.io/responsive-bootstrap-3-coin-market-place/
 
 ## SASS
 
